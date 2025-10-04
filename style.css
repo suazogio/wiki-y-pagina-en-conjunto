@@ -1,0 +1,107 @@
+/* 🌸 Estilo general */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #fff9f9;
+    color: #333;
+}
+
+/* 🌸 Encabezado */
+header {
+    background-color: #f8b5c6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a.activo,
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* 🌸 Portada */
+.portada {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to bottom, #fff5f7, #ffe4ec);
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #f28da0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: #e6788e;
+}
+
+/* 🌸 Productos */
+.grid-productos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background-color: white;
+    border: 2px solid #f4b6c2;
+    border-radius: 12px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 🌸 Contacto */
+.contacto {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid #f4b6c2;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 8px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* 🌸 Pie de página */
+footer {
+    background-color: #f8b5c6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
